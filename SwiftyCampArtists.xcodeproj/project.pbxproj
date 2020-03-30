@@ -8,22 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		CE88F7B1242FE8710070886F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88F7B0242FE8710070886F /* AppDelegate.swift */; };
-		CE88F7B3242FE8710070886F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88F7B2242FE8710070886F /* SceneDelegate.swift */; };
-		CE88F7B5242FE8710070886F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88F7B4242FE8710070886F /* ViewController.swift */; };
 		CE88F7B8242FE8710070886F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE88F7B6242FE8710070886F /* Main.storyboard */; };
 		CE88F7BA242FE8780070886F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE88F7B9242FE8780070886F /* Assets.xcassets */; };
 		CE88F7BD242FE8780070886F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE88F7BB242FE8780070886F /* LaunchScreen.storyboard */; };
+		CE88F7CA242FEA780070886F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88F7C9242FEA780070886F /* Network.swift */; };
+		CE88F7CC242FEF340070886F /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88F7CB242FEF340070886F /* Artist.swift */; };
+		CE88F7CE242FEF6E0070886F /* Works.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88F7CD242FEF6E0070886F /* Works.swift */; };
+		CE88F7D0242FF21F0070886F /* Artists.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88F7CF242FF21F0070886F /* Artists.swift */; };
+		CE88F7D4243019A30070886F /* ArtistTViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88F7D2243019A30070886F /* ArtistTViewCell.swift */; };
+		CE88F7D5243019A30070886F /* ArtistTViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE88F7D3243019A30070886F /* ArtistTViewCell.xib */; };
+		CE88F7D72430206A0070886F /* artists.json in Resources */ = {isa = PBXBuildFile; fileRef = CE88F7D62430206A0070886F /* artists.json */; };
+		CE88F7D9243023080070886F /* ArtistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88F7D8243023080070886F /* ArtistsViewController.swift */; };
+		CE94DE3924315D0700077F9A /* ArtistWorksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94DE3824315D0700077F9A /* ArtistWorksViewController.swift */; };
+		CE94DE3B2431663300077F9A /* WorkInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94DE3A2431663300077F9A /* WorkInfoViewController.swift */; };
+		CE94DE3D2431677F00077F9A /* ViewConroller-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94DE3C2431677F00077F9A /* ViewConroller-Extension.swift */; };
+		CEBBF21D24315623003A2963 /* WorkViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBF21B24315623003A2963 /* WorkViewCell.swift */; };
+		CEBBF21E24315623003A2963 /* WorkViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBBF21C24315623003A2963 /* WorkViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13042F1F0BE3F525D0200C9F /* Launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch.png; sourceTree = "<group>"; };
+		1F993A7EBE65BDFA9E6CDD52 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		2FD49938D9C1057AB55CF59F /* Launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch.png; sourceTree = "<group>"; };
+		78F9A545E5AF0ACDDE9D732F /* Launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch.png; sourceTree = "<group>"; };
+		85F8807BDFA791CF56BD2D6A /* Launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch.png; sourceTree = "<group>"; };
 		CE88F7AD242FE8710070886F /* SwiftyCampArtists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyCampArtists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE88F7B0242FE8710070886F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE88F7B2242FE8710070886F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE88F7B4242FE8710070886F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE88F7B7242FE8710070886F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE88F7B9242FE8780070886F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE88F7BC242FE8780070886F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE88F7BE242FE8780070886F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE88F7C9242FEA780070886F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		CE88F7CB242FEF340070886F /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		CE88F7CD242FEF6E0070886F /* Works.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Works.swift; sourceTree = "<group>"; };
+		CE88F7CF242FF21F0070886F /* Artists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artists.swift; sourceTree = "<group>"; };
+		CE88F7D2243019A30070886F /* ArtistTViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTViewCell.swift; sourceTree = "<group>"; };
+		CE88F7D3243019A30070886F /* ArtistTViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtistTViewCell.xib; sourceTree = "<group>"; };
+		CE88F7D62430206A0070886F /* artists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = artists.json; sourceTree = "<group>"; };
+		CE88F7D8243023080070886F /* ArtistsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsViewController.swift; sourceTree = "<group>"; };
+		CE94DE3824315D0700077F9A /* ArtistWorksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistWorksViewController.swift; sourceTree = "<group>"; };
+		CE94DE3A2431663300077F9A /* WorkInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkInfoViewController.swift; sourceTree = "<group>"; };
+		CE94DE3C2431677F00077F9A /* ViewConroller-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewConroller-Extension.swift"; sourceTree = "<group>"; };
+		CEBBF21B24315623003A2963 /* WorkViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkViewCell.swift; sourceTree = "<group>"; };
+		CEBBF21C24315623003A2963 /* WorkViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +83,87 @@
 		CE88F7AF242FE8710070886F /* SwiftyCampArtists */ = {
 			isa = PBXGroup;
 			children = (
+				CE88F7C8242FEA1C0070886F /* Supporting Files */,
+				CE88F7C7242FE9F60070886F /* Resources */,
+				CE88F7C6242FE9ED0070886F /* Controller */,
+				CE88F7C5242FE9DC0070886F /* View */,
+				CE88F7C4242FE9D40070886F /* Model */,
 				CE88F7B0242FE8710070886F /* AppDelegate.swift */,
-				CE88F7B2242FE8710070886F /* SceneDelegate.swift */,
-				CE88F7B4242FE8710070886F /* ViewController.swift */,
+			);
+			path = SwiftyCampArtists;
+			sourceTree = "<group>";
+		};
+		CE88F7C4242FE9D40070886F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE88F7C9242FEA780070886F /* Network.swift */,
+				CE88F7CB242FEF340070886F /* Artist.swift */,
+				CE88F7CD242FEF6E0070886F /* Works.swift */,
+				CE88F7CF242FF21F0070886F /* Artists.swift */,
+				CE94DE3C2431677F00077F9A /* ViewConroller-Extension.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE88F7C5242FE9DC0070886F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE88F7D12430195A0070886F /* Custom Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE88F7C6242FE9ED0070886F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE88F7D8243023080070886F /* ArtistsViewController.swift */,
+				CE94DE3824315D0700077F9A /* ArtistWorksViewController.swift */,
+				CE94DE3A2431663300077F9A /* WorkInfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE88F7C7242FE9F60070886F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE88F7D62430206A0070886F /* artists.json */,
 				CE88F7B6242FE8710070886F /* Main.storyboard */,
 				CE88F7B9242FE8780070886F /* Assets.xcassets */,
 				CE88F7BB242FE8780070886F /* LaunchScreen.storyboard */,
+				FE99CFF63FF31606420B7A29 /* LaunchScreen */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE88F7C8242FEA1C0070886F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				CE88F7BE242FE8780070886F /* Info.plist */,
 			);
-			path = SwiftyCampArtists;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE88F7D12430195A0070886F /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE88F7D2243019A30070886F /* ArtistTViewCell.swift */,
+				CE88F7D3243019A30070886F /* ArtistTViewCell.xib */,
+				CEBBF21B24315623003A2963 /* WorkViewCell.swift */,
+				CEBBF21C24315623003A2963 /* WorkViewCell.xib */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		FE99CFF63FF31606420B7A29 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				13042F1F0BE3F525D0200C9F /* Launch.png */,
+				85F8807BDFA791CF56BD2D6A /* Launch.png */,
+				2FD49938D9C1057AB55CF59F /* Launch.png */,
+				1F993A7EBE65BDFA9E6CDD52 /* 5.png */,
+				78F9A545E5AF0ACDDE9D732F /* Launch.png */,
+			);
+			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +226,10 @@
 			files = (
 				CE88F7BD242FE8780070886F /* LaunchScreen.storyboard in Resources */,
 				CE88F7BA242FE8780070886F /* Assets.xcassets in Resources */,
+				CE88F7D5243019A30070886F /* ArtistTViewCell.xib in Resources */,
 				CE88F7B8242FE8710070886F /* Main.storyboard in Resources */,
+				CE88F7D72430206A0070886F /* artists.json in Resources */,
+				CEBBF21E24315623003A2963 /* WorkViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +240,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE88F7B5242FE8710070886F /* ViewController.swift in Sources */,
 				CE88F7B1242FE8710070886F /* AppDelegate.swift in Sources */,
-				CE88F7B3242FE8710070886F /* SceneDelegate.swift in Sources */,
+				CE94DE3B2431663300077F9A /* WorkInfoViewController.swift in Sources */,
+				CE94DE3D2431677F00077F9A /* ViewConroller-Extension.swift in Sources */,
+				CE94DE3924315D0700077F9A /* ArtistWorksViewController.swift in Sources */,
+				CE88F7D0242FF21F0070886F /* Artists.swift in Sources */,
+				CE88F7D4243019A30070886F /* ArtistTViewCell.swift in Sources */,
+				CEBBF21D24315623003A2963 /* WorkViewCell.swift in Sources */,
+				CE88F7CE242FEF6E0070886F /* Works.swift in Sources */,
+				CE88F7CC242FEF340070886F /* Artist.swift in Sources */,
+				CE88F7CA242FEA780070886F /* Network.swift in Sources */,
+				CE88F7D9243023080070886F /* ArtistsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +396,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ZZ5YDZA7Z;
-				INFOPLIST_FILE = SwiftyCampArtists/Info.plist;
+				INFOPLIST_FILE = "SwiftyCampArtists/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +414,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ZZ5YDZA7Z;
-				INFOPLIST_FILE = SwiftyCampArtists/Info.plist;
+				INFOPLIST_FILE = "SwiftyCampArtists/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
